@@ -3,6 +3,18 @@
     <channel>
         <title>CueNow</title>
         <item>
+            <title>1.0.5</title>
+            <pubDate>Wed, 27 May 2026 18:50:20 +0530</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Notes you create, edit, or delete are now flushed to disk on every clean quit, so nothing is lost if you quit shortly after a change.
+- Notes that were open on screen when you quit now reopen at their saved positions when you relaunch — notes you had explicitly closed stay minimized in the menu-bar dropdown.
+]]></description>
+            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.0.5/CueNow-1.0.5.dmg" length="2799853" type="application/octet-stream" sparkle:edSignature="PceSd7OgAkL/NfR8Wxk0EtFR2Z0yQ6OEUMt+ZQgKAYKMEW9u/uokV8bNmn+y+25HDbvGhSrv96+ICNpQCG4UAQ=="/>
+        </item>
+        <item>
             <title>1.0.4</title>
             <pubDate>Wed, 27 May 2026 17:31:55 +0530</pubDate>
             <sparkle:version>5</sparkle:version>
@@ -27,20 +39,6 @@
 - Fixed pre-update note saving so current notes and archived notes are flushed before backups are created.
 ]]></description>
             <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.0.3/CueNow-1.0.3.dmg" length="2797395" type="application/octet-stream" sparkle:edSignature="dM62gdddN9YsZygGxaIWwlCg6uiITI39D75lsPOEBKxrzIBVuBSyDR9lmHKjWbIoBG43CDNxGE5L8QMwzRpSBw=="/>
-        </item>
-        <item>
-            <title>1.0.2</title>
-            <pubDate>Wed, 27 May 2026 10:26:32 +0530</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Added redesigned glass About dialog from the menubar and app menu.
-- Added a lightweight menubar update dialog with progress, download, restart, retry, and up-to-date states.
-- Fixed the menubar Check for Updates item so it opens the update flow instead of a placeholder.
-- Bumped CueNow to version 1.0.2.
-]]></description>
-            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.0.2/CueNow-1.0.2.dmg" length="2796260" type="application/octet-stream" sparkle:edSignature="2EZ/Xgsnp+epu9RaC+6JUQLSzbDVovNu/9e4Qm+b55bHcUJPGYbBLCTfaMYheoy0ZYwukPuXy/2Gnzzx58KUCw=="/>
         </item>
     </channel>
 </rss>
