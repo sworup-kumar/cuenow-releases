@@ -3,6 +3,19 @@
     <channel>
         <title>CueNow</title>
         <item>
+            <title>1.0.51</title>
+            <pubDate>Wed, 27 May 2026 22:18:10 +0530</pubDate>
+            <sparkle:version>51</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Fix note content persistence before app update restart.
+- Commit live sticky-note editor text before saving on close, quit, archive, and update install.
+- Prevent non-critical pre-update backup-copy failures from aborting an already-saved update restart.
+]]></description>
+            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.0.51/CueNow-1.0.51.dmg" length="2802558" type="application/octet-stream" sparkle:edSignature="APKgEXs1mxQS14VCiY/BBfJdmwBC1RlbC5YZr0Bn1VIqhp2+bXg46jrXlFe8+2pikuW3tBm/WBNbJfjZf2cEDA=="/>
+        </item>
+        <item>
             <title>1.0.5</title>
             <pubDate>Wed, 27 May 2026 18:50:20 +0530</pubDate>
             <sparkle:version>6</sparkle:version>
@@ -24,21 +37,6 @@
             <description sparkle:format="markdown"><![CDATA[- Fixed window corner radius on the About and Check for Updates dialogs to use macOS squircle curves, matching the native system window style.
 ]]></description>
             <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.0.4/CueNow-1.0.4.dmg" length="2797776" type="application/octet-stream" sparkle:edSignature="kxszJrFtv5OaEHSMa0h9yhIQCt3nrirFVGw6riOivB47QT0cXITLKbFFdysurTG/A3RZ7yzMuVIosFgRksi6Cw=="/>
-        </item>
-        <item>
-            <title>1.0.3</title>
-            <pubDate>Wed, 27 May 2026 11:02:14 +0530</pubDate>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# CueNow 1.0.3
-
-- Fixed Sparkle update package signing so in-app updates install cleanly.
-- Added release packaging verification for the app inside the DMG and nested Sparkle helpers.
-- Fixed pre-update note saving so current notes and archived notes are flushed before backups are created.
-]]></description>
-            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.0.3/CueNow-1.0.3.dmg" length="2797395" type="application/octet-stream" sparkle:edSignature="dM62gdddN9YsZygGxaIWwlCg6uiITI39D75lsPOEBKxrzIBVuBSyDR9lmHKjWbIoBG43CDNxGE5L8QMwzRpSBw=="/>
         </item>
     </channel>
 </rss>
