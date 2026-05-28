@@ -3,6 +3,19 @@
     <channel>
         <title>CueNow</title>
         <item>
+            <title>1.0.53</title>
+            <pubDate>Thu, 28 May 2026 09:11:25 +0530</pubDate>
+            <sparkle:version>53</sparkle:version>
+            <sparkle:shortVersionString>1.0.53</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Saves the text you're actively typing in a note before quitting, archiving, deleting, or running an in-app update — so your latest words are never left behind.
+- The Support item in the menubar dropdown now opens Settings directly on the Support tab.
+- Improved note storage path handling for broader macOS version compatibility, and made pre-update backup failures non-blocking so a backup hiccup can't stop your notes from being saved.
+]]></description>
+            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.0.53/CueNow-1.0.53.dmg" length="2804214" type="application/octet-stream" sparkle:edSignature="ZQLjEqu4+Y+o+yfhW0sbKaACH30AO2vJdwkvYHNEig90LOnevlNr6npDJMjJiNWzyQK1Jb5k9bg70LovVQnrAQ=="/>
+        </item>
+        <item>
             <title>1.0.52</title>
             <pubDate>Wed, 27 May 2026 23:21:01 +0530</pubDate>
             <sparkle:version>52</sparkle:version>
@@ -27,18 +40,6 @@
 - Prevent non-critical pre-update backup-copy failures from aborting an already-saved update restart.
 ]]></description>
             <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.0.51/CueNow-1.0.51.dmg" length="2802558" type="application/octet-stream" sparkle:edSignature="APKgEXs1mxQS14VCiY/BBfJdmwBC1RlbC5YZr0Bn1VIqhp2+bXg46jrXlFe8+2pikuW3tBm/WBNbJfjZf2cEDA=="/>
-        </item>
-        <item>
-            <title>1.0.5</title>
-            <pubDate>Wed, 27 May 2026 18:50:20 +0530</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Notes you create, edit, or delete are now flushed to disk on every clean quit, so nothing is lost if you quit shortly after a change.
-- Notes that were open on screen when you quit now reopen at their saved positions when you relaunch — notes you had explicitly closed stay minimized in the menu-bar dropdown.
-]]></description>
-            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.0.5/CueNow-1.0.5.dmg" length="2799853" type="application/octet-stream" sparkle:edSignature="PceSd7OgAkL/NfR8Wxk0EtFR2Z0yQ6OEUMt+ZQgKAYKMEW9u/uokV8bNmn+y+25HDbvGhSrv96+ICNpQCG4UAQ=="/>
         </item>
     </channel>
 </rss>
