@@ -3,6 +3,24 @@
     <channel>
         <title>CueNow</title>
         <item>
+            <title>1.1.0</title>
+            <pubDate>Fri, 29 May 2026 18:44:32 +0530</pubDate>
+            <sparkle:version>55</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## CueNow 1.0.6
+
+### Fixes
+- **Note History:** The archived notes grid now fills the available space and scrolls on its own, with the search bar and action buttons pinned in place. Previously the list was clipped to a single row.
+- **Sticky note text rendering:** Fixed an issue where typed characters could be invisible in notes on macOS 13–15 (the text was present but not drawn). Notes now render reliably across macOS versions.
+
+### New
+- **Hide dock icon:** Added a "Hide dock icon" toggle under Configuration → General. Turn it on to run CueNow purely from the menu bar. The setting applies immediately and persists across launches.
+]]></description>
+            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.1.0/CueNow-1.1.0.dmg" length="2805909" type="application/octet-stream" sparkle:edSignature="mi3bQTerQQ4GT0jJvGaAhn5gcFFAlCtnvmyOpt2Zq3/c4cQPNP1QEKKDmZEJVfZwQ4hmnrvr077vv4HgyD31CQ=="/>
+        </item>
+        <item>
             <title>1.0.6</title>
             <pubDate>Fri, 29 May 2026 18:35:16 +0530</pubDate>
             <sparkle:version>54</sparkle:version>
@@ -32,19 +50,6 @@
 - Improved note storage path handling for broader macOS version compatibility, and made pre-update backup failures non-blocking so a backup hiccup can't stop your notes from being saved.
 ]]></description>
             <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.0.53/CueNow-1.0.53.dmg" length="2804214" type="application/octet-stream" sparkle:edSignature="ZQLjEqu4+Y+o+yfhW0sbKaACH30AO2vJdwkvYHNEig90LOnevlNr6npDJMjJiNWzyQK1Jb5k9bg70LovVQnrAQ=="/>
-        </item>
-        <item>
-            <title>1.0.52</title>
-            <pubDate>Wed, 27 May 2026 23:21:01 +0530</pubDate>
-            <sparkle:version>52</sparkle:version>
-            <sparkle:shortVersionString>1.0.52</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Fixed note persistence when reopening CueNow after quitting the app.
-- Fixed storage path handling so notes in `Application Support/CueNow` are loaded correctly instead of being replaced by a blank note.
-- Added regression coverage for note storage paths containing spaces.
-]]></description>
-            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.0.52/CueNow-1.0.52.dmg" length="2802526" type="application/octet-stream" sparkle:edSignature="HI/NYQmdi52N2uvWtgJcFKJ2lvb7w1AGhX8eFZWgfhdMBiwcEUGyW14oBrMHgBwGIx8Ip93Bpg6OivhyZCTcDw=="/>
         </item>
     </channel>
 </rss>
