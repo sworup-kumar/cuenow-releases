@@ -9,14 +9,8 @@
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## CueNow 1.1.0
-
-### Fixes
-- **Note History:** The archived notes grid now fills the available space and scrolls on its own, with the search bar and action buttons pinned in place. Previously the list was clipped to a single row.
-- **Sticky note text rendering:** Fixed an issue where typed characters could be invisible in notes on macOS 13–15 (the text was present but not drawn). Notes now render reliably across macOS versions.
-
-### New
-- **Hide dock icon:** Added a "Hide dock icon" toggle under Configuration → General. Turn it on to run CueNow purely from the menu bar. The setting applies immediately and persists across launches.
+            <description sparkle:format="markdown"><![CDATA[- Note History now shows more of your archived notes at once. The list fills the space and scrolls on its own, while the search bar and buttons stay put at the top.
+- You can now hide CueNow's Dock icon and run it entirely from the menu bar. Turn it on in Settings under Configuration → General.
 ]]></description>
             <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.1.0/CueNow-1.1.0.dmg" length="2805909" type="application/octet-stream" sparkle:edSignature="mi3bQTerQQ4GT0jJvGaAhn5gcFFAlCtnvmyOpt2Zq3/c4cQPNP1QEKKDmZEJVfZwQ4hmnrvr077vv4HgyD31CQ=="/>
         </item>
