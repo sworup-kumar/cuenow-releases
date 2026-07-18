@@ -3,6 +3,20 @@
     <channel>
         <title>CueNow</title>
         <item>
+            <title>1.4.3</title>
+            <pubDate>Sat, 18 Jul 2026 10:59:09 +0530</pubDate>
+            <sparkle:version>70</sparkle:version>
+            <sparkle:shortVersionString>1.4.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s fixed
+
+- Glass notes on macOS 15 and earlier now use the system’s appearance-adaptive blur, so Light Mode no longer receives a forced dark overlay.
+- Checkbox selections now treat the checkbox marker and its spacer as one control. Deleting a partial keyboard or mouse selection can no longer leave the checkbox misaligned.
+]]></description>
+            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.3/CueNow-1.4.3.dmg" length="2971337" type="application/octet-stream" sparkle:edSignature="n5PwaAQbI8LFyeOpV1+QZ0nWl134VP+Lv9SwHEeXruenSYGj2kUzAIMH05OPS/6NM1uCEiIeUtX8JJnYkdb9DA=="/>
+        </item>
+        <item>
             <title>1.4.2</title>
             <pubDate>Fri, 17 Jul 2026 17:39:01 +0530</pubDate>
             <sparkle:version>69</sparkle:version>
@@ -35,41 +49,6 @@ This release keeps the existing adaptive blue version badge styling in both Ligh
   visible before you begin typing.
 ]]></description>
             <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.1/CueNow-1.4.1.dmg" length="2970795" type="application/octet-stream" sparkle:edSignature="YU6pi6rMYMb348KW3oHq5wyH1flGw5TLB9LX1ppdiusNGebB8WPLoB7JhgN25EMuLjTd60MPJtAz9ZpbSK55Bg=="/>
-        </item>
-        <item>
-            <title>1.4.0</title>
-            <pubDate>Fri, 17 Jul 2026 16:39:44 +0530</pubDate>
-            <sparkle:version>67</sparkle:version>
-            <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# CueNow 1.4.0
-
-## What’s new
-
-- Added nested numbered lists. Continue a list with Return, use Tab to move into
-  deeper `a.` and `i.` levels, and move back out one level at a time while keeping
-  notes compatible with plain text.
-- Glass notes now adapt fully to the system appearance. Light Mode uses readable
-  dark text and controls over clear Liquid Glass, while Dark Mode keeps the light
-  foreground with a lighter 10% dark tint.
-- Refreshed Settings with clearer grouped sections and a coordinated Light and
-  Dark Mode palette across Configuration, Note History, App Updates, and Support.
-
-## Improvements and fixes
-
-- AI-generated titles now finish updating even after the note window—or the last
-  open CueNow window—has been closed.
-- Changing the request type in Support no longer clears the title, description,
-  or attachments already entered.
-- Support attachments now enforce the displayed limit of five files at up to
-  5 MB each, while preserving valid files when an invalid selection is rejected.
-- Editing a Support draft after a failed submission now clears the stale error and
-  lets you correct and resend it immediately.
-- Automatically detected updates now open the focused update-details dialog
-  instead of moving the Settings window to another tab.
-]]></description>
-            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.0/CueNow-1.4.0.dmg" length="2970792" type="application/octet-stream" sparkle:edSignature="yrkjogkR3ei/ycFnVpxVHGmWU26CKFy38Jw2MDZyrZJqROhHoIOorJZ5KOHFOoDmCv67Uy6s1nQWHSK8/uKBAA=="/>
         </item>
     </channel>
 </rss>
