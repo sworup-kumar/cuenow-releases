@@ -3,6 +3,22 @@
     <channel>
         <title>CueNow</title>
         <item>
+            <title>1.4.4</title>
+            <pubDate>Thu, 30 Jul 2026 13:04:29 +0530</pubDate>
+            <sparkle:version>71</sparkle:version>
+            <sparkle:shortVersionString>1.4.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s fixed
+
+- Ordered lists now keep the same font, wrapping, and line spacing across every item on older macOS versions.
+- CueNow no longer lets the system’s automatic text replacement compete with its numbered-list editor, preventing malformed `1.Text` formatting.
+- Glass notes on macOS 15 and earlier now use a translucent, appearance-adaptive background in both Light and Dark Mode.
+- Shared diagnostic logs now include the macOS version, appearance, transparency setting, and note style to make display-specific reports actionable.
+]]></description>
+            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.4/CueNow-1.4.4.dmg" length="2977879" type="application/octet-stream" sparkle:edSignature="/G4F+aZWwH+Wv13ak3GK3Y1qlReLFN4yP6roNOPLsHT4JSR6OlKZarmzc0KWKPDrd1EywIsQXbNL8rPdvc/sAw=="/>
+        </item>
+        <item>
             <title>1.4.3</title>
             <pubDate>Sat, 18 Jul 2026 10:59:09 +0530</pubDate>
             <sparkle:version>70</sparkle:version>
@@ -31,24 +47,6 @@
 This release keeps the existing adaptive blue version badge styling in both Light and Dark Mode.
 ]]></description>
             <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.2/CueNow-1.4.2.dmg" length="2970589" type="application/octet-stream" sparkle:edSignature="EPe/2do869+PaV3CG0OSBWegVU0blDcuXulEQ6ed0npLMc4DR1Qf15LiiWf+fy81zkv9NkNFgL1uF44PlcFqDA=="/>
-        </item>
-        <item>
-            <title>1.4.1</title>
-            <pubDate>Fri, 17 Jul 2026 16:58:24 +0530</pubDate>
-            <sparkle:version>68</sparkle:version>
-            <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# CueNow 1.4.1
-
-## Fixes
-
-- Fixed numbered lists not scrolling to reveal the new current item when Return
-  is pressed at the bottom of the visible note area.
-- Nested numbered lists now also keep the newly inserted sub-list item fully
-  visible before you begin typing.
-]]></description>
-            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.1/CueNow-1.4.1.dmg" length="2970795" type="application/octet-stream" sparkle:edSignature="YU6pi6rMYMb348KW3oHq5wyH1flGw5TLB9LX1ppdiusNGebB8WPLoB7JhgN25EMuLjTd60MPJtAz9ZpbSK55Bg=="/>
         </item>
     </channel>
 </rss>
