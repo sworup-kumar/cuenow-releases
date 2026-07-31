@@ -3,6 +3,20 @@
     <channel>
         <title>CueNow</title>
         <item>
+            <title>1.4.5</title>
+            <pubDate>Fri, 31 Jul 2026 08:55:27 +0530</pubDate>
+            <sparkle:version>72</sparkle:version>
+            <sparkle:shortVersionString>1.4.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# CueNow 1.4.5
+
+- Fixed numbered list markers displaying in a different font from their list text on older macOS versions.
+- Corrected inconsistent numbered-list line spacing caused by those mixed font metrics.
+]]></description>
+            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.5/CueNow-1.4.5.dmg" length="2978376" type="application/octet-stream" sparkle:edSignature="dZ2iSw6mHQPV+Ea1xjokvCHgbJNchpFDXsoYCUSYqPLLSlC44tc0OxWKSXeJjZtxaQ2cn+GT1qWalYxltJzEBQ=="/>
+        </item>
+        <item>
             <title>1.4.4</title>
             <pubDate>Thu, 30 Jul 2026 13:04:29 +0530</pubDate>
             <sparkle:version>71</sparkle:version>
@@ -31,22 +45,6 @@
 - Checkbox selections now treat the checkbox marker and its spacer as one control. Deleting a partial keyboard or mouse selection can no longer leave the checkbox misaligned.
 ]]></description>
             <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.3/CueNow-1.4.3.dmg" length="2971337" type="application/octet-stream" sparkle:edSignature="n5PwaAQbI8LFyeOpV1+QZ0nWl134VP+Lv9SwHEeXruenSYGj2kUzAIMH05OPS/6NM1uCEiIeUtX8JJnYkdb9DA=="/>
-        </item>
-        <item>
-            <title>1.4.2</title>
-            <pubDate>Fri, 17 Jul 2026 17:39:01 +0530</pubDate>
-            <sparkle:version>69</sparkle:version>
-            <sparkle:shortVersionString>1.4.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s fixed
-
-- The menu bar now keeps showing **Update available** after you choose **Later** in the update dialog.
-- Manual and automatic update checks now share the same update state, so the available-version badge remains accurate until the update is installed or is no longer newer.
-
-This release keeps the existing adaptive blue version badge styling in both Light and Dark Mode.
-]]></description>
-            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.2/CueNow-1.4.2.dmg" length="2970589" type="application/octet-stream" sparkle:edSignature="EPe/2do869+PaV3CG0OSBWegVU0blDcuXulEQ6ed0npLMc4DR1Qf15LiiWf+fy81zkv9NkNFgL1uF44PlcFqDA=="/>
         </item>
     </channel>
 </rss>
