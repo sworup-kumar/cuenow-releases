@@ -3,6 +3,26 @@
     <channel>
         <title>CueNow</title>
         <item>
+            <title>1.4.51</title>
+            <pubDate>Wed, 05 Aug 2026 10:40:21 +0530</pubDate>
+            <sparkle:version>73</sparkle:version>
+            <sparkle:shortVersionString>1.4.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# CueNow 1.4.51
+
+## Fixes
+
+- Fixed the CueNow menu bar icon disappearing when another app's icon was hidden
+  from System Settings on macOS 26. CueNow's menu bar item had no name of its
+  own, so macOS grouped it with every other unnamed menu bar item — including
+  Cursor, Codex and Claude — under a single shared visibility switch.
+- CueNow's menu bar icon now has its own visibility switch and is unaffected by
+  other apps. Its position in the menu bar is preserved when updating.
+]]></description>
+            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.51/CueNow-1.4.51.dmg" length="2979511" type="application/octet-stream" sparkle:edSignature="rksQWniUHfBs1FkF7n6kxk0riKuEEeM7eKisu4WxXp5nMbEQiWyUMGoF/JdyPmCW4iOy0Y5s11ZYEZmE6KV6Ag=="/>
+        </item>
+        <item>
             <title>1.4.5</title>
             <pubDate>Fri, 31 Jul 2026 08:55:27 +0530</pubDate>
             <sparkle:version>72</sparkle:version>
@@ -31,20 +51,6 @@
 - Shared diagnostic logs now include the macOS version, appearance, transparency setting, and note style to make display-specific reports actionable.
 ]]></description>
             <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.4/CueNow-1.4.4.dmg" length="2977879" type="application/octet-stream" sparkle:edSignature="/G4F+aZWwH+Wv13ak3GK3Y1qlReLFN4yP6roNOPLsHT4JSR6OlKZarmzc0KWKPDrd1EywIsQXbNL8rPdvc/sAw=="/>
-        </item>
-        <item>
-            <title>1.4.3</title>
-            <pubDate>Sat, 18 Jul 2026 10:59:09 +0530</pubDate>
-            <sparkle:version>70</sparkle:version>
-            <sparkle:shortVersionString>1.4.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s fixed
-
-- Glass notes on macOS 15 and earlier now use the system’s appearance-adaptive blur, so Light Mode no longer receives a forced dark overlay.
-- Checkbox selections now treat the checkbox marker and its spacer as one control. Deleting a partial keyboard or mouse selection can no longer leave the checkbox misaligned.
-]]></description>
-            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.3/CueNow-1.4.3.dmg" length="2971337" type="application/octet-stream" sparkle:edSignature="n5PwaAQbI8LFyeOpV1+QZ0nWl134VP+Lv9SwHEeXruenSYGj2kUzAIMH05OPS/6NM1uCEiIeUtX8JJnYkdb9DA=="/>
         </item>
     </channel>
 </rss>
