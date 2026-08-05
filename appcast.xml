@@ -3,6 +3,29 @@
     <channel>
         <title>CueNow</title>
         <item>
+            <title>1.4.53</title>
+            <pubDate>Wed, 05 Aug 2026 12:59:50 +0530</pubDate>
+            <sparkle:version>76</sparkle:version>
+            <sparkle:shortVersionString>1.4.53</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# CueNow 1.4.53
+
+## Fixes
+
+- Fixed CueNow's menu bar icon hiding when ChatGPT, Cursor, Claude, or another
+  application's menu bar item is turned off in System Settings on macOS 26.
+- Each application's System Settings switch now controls only that
+  application's menu bar icon, including CueNow's own switch.
+- CueNow now uses macOS's native menu bar registration as the single source of
+  truth for visibility, preventing the runaway scene-update loop seen in
+  1.4.51 and 1.4.52.
+- The Hide dock icon preference now takes effect after reopening CueNow so the
+  menu bar registration remains stable.
+]]></description>
+            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.53/CueNow-1.4.53.dmg" length="2980791" type="application/octet-stream" sparkle:edSignature="KHx+7HhtRBySzTW6oPhlNExvz+oXZhdyUY4KXvAiF62s3zXDYzDfQbu6iwTGtgg1x0BiHJP38IQcH7IrBLufAQ=="/>
+        </item>
+        <item>
             <title>1.4.52</title>
             <pubDate>Wed, 05 Aug 2026 12:00:57 +0530</pubDate>
             <sparkle:version>75</sparkle:version>
@@ -44,20 +67,6 @@
   later choice to hide CueNow itself.
 ]]></description>
             <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.51/CueNow-1.4.51.dmg" length="2980080" type="application/octet-stream" sparkle:edSignature="uutzrYolXNN4M++z1LdWABBwcf/5T+kLhz8Qa9YtB6Ih4VPaGnjzyda/opxwyOWxaJbrx3ynZHXh/tPF2NhlDA=="/>
-        </item>
-        <item>
-            <title>1.4.5</title>
-            <pubDate>Fri, 31 Jul 2026 08:55:27 +0530</pubDate>
-            <sparkle:version>72</sparkle:version>
-            <sparkle:shortVersionString>1.4.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# CueNow 1.4.5
-
-- Fixed numbered list markers displaying in a different font from their list text on older macOS versions.
-- Corrected inconsistent numbered-list line spacing caused by those mixed font metrics.
-]]></description>
-            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.5/CueNow-1.4.5.dmg" length="2978376" type="application/octet-stream" sparkle:edSignature="dZ2iSw6mHQPV+Ea1xjokvCHgbJNchpFDXsoYCUSYqPLLSlC44tc0OxWKSXeJjZtxaQ2cn+GT1qWalYxltJzEBQ=="/>
         </item>
     </channel>
 </rss>
