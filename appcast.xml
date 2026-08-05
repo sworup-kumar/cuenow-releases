@@ -3,27 +3,21 @@
     <channel>
         <title>CueNow</title>
         <item>
-            <title>1.4.53</title>
-            <pubDate>Wed, 05 Aug 2026 12:59:50 +0530</pubDate>
-            <sparkle:version>76</sparkle:version>
-            <sparkle:shortVersionString>1.4.53</sparkle:shortVersionString>
+            <title>1.4.51</title>
+            <pubDate>Wed, 05 Aug 2026 15:12:11 +0530</pubDate>
+            <sparkle:version>77</sparkle:version>
+            <sparkle:shortVersionString>1.4.51</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# CueNow 1.4.53
-
-## Fixes
-
-- Fixed CueNow's menu bar icon hiding when ChatGPT, Cursor, Claude, or another
-  application's menu bar item is turned off in System Settings on macOS 26.
-- Each application's System Settings switch now controls only that
-  application's menu bar icon, including CueNow's own switch.
-- CueNow now uses macOS's native menu bar registration as the single source of
-  truth for visibility, preventing the runaway scene-update loop seen in
-  1.4.51 and 1.4.52.
-- The Hide dock icon preference now takes effect after reopening CueNow so the
-  menu bar registration remains stable.
+            <description sparkle:format="markdown"><![CDATA[- Fixed CueNow disappearing when another application's menu bar item is changed
+  in System Settings. ChatGPT, Cursor, Claude, and other applications now affect
+  only their own icons.
+- Turning CueNow off in System Settings now hides only CueNow. Turning it back on
+  restores it without quitting the app.
+- Preserves CueNow's existing menu bar position while moving it to a stable,
+  app-owned menu bar identity.
 ]]></description>
-            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.53/CueNow-1.4.53.dmg" length="2980791" type="application/octet-stream" sparkle:edSignature="KHx+7HhtRBySzTW6oPhlNExvz+oXZhdyUY4KXvAiF62s3zXDYzDfQbu6iwTGtgg1x0BiHJP38IQcH7IrBLufAQ=="/>
+            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.51/CueNow-1.4.51.dmg" length="2978554" type="application/octet-stream" sparkle:edSignature="fm6Z3WIPbETkSnU7C3HLWAiBTv75ujyiQ/wtD7arR/5inpfs28/ymyjU75VkmdwUkM4rxyWXz2gwC0cBfcrECQ=="/>
         </item>
         <item>
             <title>1.4.52</title>
@@ -43,30 +37,6 @@
   rearranging a crowded menu bar.
 ]]></description>
             <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.52/CueNow-1.4.52.dmg" length="2980089" type="application/octet-stream" sparkle:edSignature="gMR1RCxE7AcffZAWJF1CF3mO4KPy2IGgFhwPoulafwIqYg4gWiQXCePLaip43ZQ6TobeeInv13cjM9FHjckWBg=="/>
-        </item>
-        <item>
-            <title>1.4.51</title>
-            <pubDate>Wed, 05 Aug 2026 11:13:00 +0530</pubDate>
-            <sparkle:version>74</sparkle:version>
-            <sparkle:shortVersionString>1.4.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# CueNow 1.4.51
-
-## Fixes
-
-- Fixed the CueNow menu bar icon disappearing when another app's icon was hidden
-  from System Settings on macOS 26. CueNow's menu bar item had no name of its
-  own, so macOS grouped it with every other unnamed menu bar item — including
-  Cursor, Codex and Claude — under a single shared visibility switch.
-- CueNow's menu bar icon now has its own visibility switch and is unaffected by
-  other apps. Its position in the menu bar is preserved when updating.
-- Corrected the migration for people who had already turned off the shared
-  menu bar item before installing 1.4.51. CueNow now restores its icon once
-  after taking ownership of its unique visibility setting, then preserves any
-  later choice to hide CueNow itself.
-]]></description>
-            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.51/CueNow-1.4.51.dmg" length="2980080" type="application/octet-stream" sparkle:edSignature="uutzrYolXNN4M++z1LdWABBwcf/5T+kLhz8Qa9YtB6Ih4VPaGnjzyda/opxwyOWxaJbrx3ynZHXh/tPF2NhlDA=="/>
         </item>
     </channel>
 </rss>
