@@ -3,19 +3,6 @@
     <channel>
         <title>CueNow</title>
         <item>
-            <title>1.4.52</title>
-            <pubDate>Wed, 05 Aug 2026 17:37:35 +0530</pubDate>
-            <sparkle:version>79</sparkle:version>
-            <sparkle:shortVersionString>1.4.52</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[* Fixed macOS Menu Bar settings so CueNow keeps one independent, functional visibility control.
-* CueNow now uses its bundled app icon for its menu-bar status item instead of the generic macOS glyph.
-* Transition installs clean up only stale legacy menu-bar metadata, preserving notes and regular CueNow settings.
-]]></description>
-            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.52/CueNow-1.4.52.dmg" length="2976236" type="application/octet-stream" sparkle:edSignature="0r7p2vcffdbX+Onkkw9eJvgt/8OU0CGWn5z9doU1UbQYxhWCXFgrXi6tQPI4kJfZYkUEwfkVb7MEG9BGG+ubDQ=="/>
-        </item>
-        <item>
             <title>1.4.51</title>
             <pubDate>Wed, 05 Aug 2026 16:34:55 +0530</pubDate>
             <sparkle:version>78</sparkle:version>
