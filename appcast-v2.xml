@@ -3,35 +3,48 @@
     <channel>
         <title>CueNow</title>
         <item>
-            <title>1.4.52</title>
-            <pubDate>Wed, 05 Aug 2026 18:03:40 +0530</pubDate>
-            <sparkle:version>80</sparkle:version>
-            <sparkle:shortVersionString>1.4.52</sparkle:shortVersionString>
+            <title>1.4.5</title>
+            <pubDate>Fri, 31 Jul 2026 08:55:27 +0530</pubDate>
+            <sparkle:version>72</sparkle:version>
+            <sparkle:shortVersionString>1.4.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[* CueNow now uses macOS's system-managed menu bar integration, keeping its custom menu-bar icon while displaying the CueNow app icon in System Settings > Menu Bar.
-* Fixed menu bar visibility so CueNow has one independent system control; changing another app's setting no longer affects CueNow.
-* Existing installs remove only obsolete manual menu-bar metadata. Your notes and regular settings are preserved.
+            <description sparkle:format="markdown"><![CDATA[# CueNow 1.4.5
+
+- Fixed numbered list markers displaying in a different font from their list text on older macOS versions.
+- Corrected inconsistent numbered-list line spacing caused by those mixed font metrics.
 ]]></description>
-            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.52.1/CueNow-1.4.52.dmg" length="2983666" type="application/octet-stream" sparkle:edSignature="KkmaJfIP5iYkE5wjgGRBZ43Sv3dO09oHyFNQ+raC18Mg25b1jbKagXv4u9NExfUQhuLHZIkiv6WKWEw8Y3OfDA=="/>
+            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.5/CueNow-1.4.5.dmg" length="2978376" type="application/octet-stream" sparkle:edSignature="dZ2iSw6mHQPV+Ea1xjokvCHgbJNchpFDXsoYCUSYqPLLSlC44tc0OxWKSXeJjZtxaQ2cn+GT1qWalYxltJzEBQ=="/>
         </item>
         <item>
-            <title>1.4.51</title>
-            <pubDate>Wed, 05 Aug 2026 16:34:55 +0530</pubDate>
-            <sparkle:version>78</sparkle:version>
-            <sparkle:shortVersionString>1.4.51</sparkle:shortVersionString>
+            <title>1.4.4</title>
+            <pubDate>Thu, 30 Jul 2026 13:04:29 +0530</pubDate>
+            <sparkle:version>71</sparkle:version>
+            <sparkle:shortVersionString>1.4.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Fixed CueNow's menu bar icon disappearing when ChatGPT, Cursor, Claude, or
-  another application's menu bar setting was changed.
-- CueNow now uses its own clean macOS menu bar identity, so each application's
-  visibility switch affects only that application.
-- Existing CueNow settings are migrated automatically while the corrupted menu
-  bar state is left behind. Notes remain safely stored in Application Support.
-- Improved the update transition for existing 1.4.51 installations and fresh
-  installs.
+            <description sparkle:format="markdown"><![CDATA[## What’s fixed
+
+- Ordered lists now keep the same font, wrapping, and line spacing across every item on older macOS versions.
+- CueNow no longer lets the system’s automatic text replacement compete with its numbered-list editor, preventing malformed `1.Text` formatting.
+- Glass notes on macOS 15 and earlier now use a translucent, appearance-adaptive background in both Light and Dark Mode.
+- Shared diagnostic logs now include the macOS version, appearance, transparency setting, and note style to make display-specific reports actionable.
 ]]></description>
-            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.51.1/CueNow-1.4.51.dmg" length="2981699" type="application/octet-stream" sparkle:edSignature="Bo4gi9xo+J81AYI4cNcT5G4g5gvqW4ZjZ6doswNi2jqhXtMhsD3/zKjxAEE3/tSdxU/X6Uyrg2/euw+kH3q1BQ=="/>
+            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.4/CueNow-1.4.4.dmg" length="2977879" type="application/octet-stream" sparkle:edSignature="/G4F+aZWwH+Wv13ak3GK3Y1qlReLFN4yP6roNOPLsHT4JSR6OlKZarmzc0KWKPDrd1EywIsQXbNL8rPdvc/sAw=="/>
+        </item>
+        <item>
+            <title>1.4.3</title>
+            <pubDate>Sat, 18 Jul 2026 10:59:09 +0530</pubDate>
+            <sparkle:version>70</sparkle:version>
+            <sparkle:shortVersionString>1.4.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s fixed
+
+- Glass notes on macOS 15 and earlier now use the system’s appearance-adaptive blur, so Light Mode no longer receives a forced dark overlay.
+- Checkbox selections now treat the checkbox marker and its spacer as one control. Deleting a partial keyboard or mouse selection can no longer leave the checkbox misaligned.
+]]></description>
+            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.3/CueNow-1.4.3.dmg" length="2971337" type="application/octet-stream" sparkle:edSignature="n5PwaAQbI8LFyeOpV1+QZ0nWl134VP+Lv9SwHEeXruenSYGj2kUzAIMH05OPS/6NM1uCEiIeUtX8JJnYkdb9DA=="/>
         </item>
     </channel>
 </rss>
