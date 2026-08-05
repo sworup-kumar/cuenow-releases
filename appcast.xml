@@ -3,6 +3,25 @@
     <channel>
         <title>CueNow</title>
         <item>
+            <title>1.4.52</title>
+            <pubDate>Wed, 05 Aug 2026 12:00:57 +0530</pubDate>
+            <sparkle:version>75</sparkle:version>
+            <sparkle:shortVersionString>1.4.52</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# CueNow 1.4.52
+
+## Fixes
+
+- Fixed the CueNow menu bar icon disappearing after changing other apps' menu
+  bar settings on macOS 26.
+- CueNow now uses one standard 22-point menu bar slot instead of reserving a
+  43-point variable-width slot, so macOS no longer pushes it out while
+  rearranging a crowded menu bar.
+]]></description>
+            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.52/CueNow-1.4.52.dmg" length="2980089" type="application/octet-stream" sparkle:edSignature="gMR1RCxE7AcffZAWJF1CF3mO4KPy2IGgFhwPoulafwIqYg4gWiQXCePLaip43ZQ6TobeeInv13cjM9FHjckWBg=="/>
+        </item>
+        <item>
             <title>1.4.51</title>
             <pubDate>Wed, 05 Aug 2026 11:13:00 +0530</pubDate>
             <sparkle:version>74</sparkle:version>
