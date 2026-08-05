@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>CueNow</title>
+        <item>
+            <title>1.4.51</title>
+            <pubDate>Wed, 05 Aug 2026 16:34:55 +0530</pubDate>
+            <sparkle:version>78</sparkle:version>
+            <sparkle:shortVersionString>1.4.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Fixed CueNow's menu bar icon disappearing when ChatGPT, Cursor, Claude, or
+  another application's menu bar setting was changed.
+- CueNow now uses its own clean macOS menu bar identity, so each application's
+  visibility switch affects only that application.
+- Existing CueNow settings are migrated automatically while the corrupted menu
+  bar state is left behind. Notes remain safely stored in Application Support.
+- Improved the update transition for existing 1.4.51 installations and fresh
+  installs.
+]]></description>
+            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.51.1/CueNow-1.4.51.dmg" length="2981699" type="application/octet-stream" sparkle:edSignature="Bo4gi9xo+J81AYI4cNcT5G4g5gvqW4ZjZ6doswNi2jqhXtMhsD3/zKjxAEE3/tSdxU/X6Uyrg2/euw+kH3q1BQ=="/>
+        </item>
+    </channel>
+</rss>

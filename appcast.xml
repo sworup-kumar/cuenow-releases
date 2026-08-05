@@ -1,23 +1,24 @@
-<?xml version="1.0" standalone="yes"?>
+<?xml version='1.0' encoding='utf-8'?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>CueNow</title>
         <item>
-            <title>1.4.51</title>
-            <pubDate>Wed, 05 Aug 2026 15:13:00 +0530</pubDate>
-            <sparkle:version>77</sparkle:version>
+            <title>CueNow 1.4.51</title>
+            <link>https://github.com/sworup-kumar/cuenow-releases/releases/tag/v1.4.51.1</link>
+            <sparkle:version>78</sparkle:version>
             <sparkle:shortVersionString>1.4.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Fixed CueNow disappearing when another application's menu bar item is changed
-  in System Settings. ChatGPT, Cursor, Claude, and other applications now affect
-  only their own icons.
-- Turning CueNow off in System Settings now hides only CueNow. Turning it back on
-  restores it without quitting the app.
-- Preserves CueNow's existing menu bar position while moving it to a stable,
-  app-owned menu bar identity.
-]]></description>
-            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.51/CueNow-1.4.51.dmg" length="2978554" type="application/octet-stream" sparkle:edSignature="fm6Z3WIPbETkSnU7C3HLWAiBTv75ujyiQ/wtD7arR/5inpfs28/ymyjU75VkmdwUkM4rxyWXz2gwC0cBfcrECQ=="/>
+            <sparkle:minimumSystemVersion>13.0.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text">- Fixed CueNow's menu bar icon disappearing when ChatGPT, Cursor, Claude, or
+  another application's menu bar setting was changed.
+- CueNow now uses its own clean macOS menu bar identity, so each application's
+  visibility switch affects only that application.
+- Existing CueNow settings are migrated automatically while the corrupted menu
+  bar state is left behind. Notes remain safely stored in Application Support.
+- Improved the update transition for existing 1.4.51 installations and fresh
+  installs.
+</description>
+            <pubDate>Wed, 05 Aug 2026 11:04:55 +0000</pubDate>
+            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.51.1/CueNow-1.4.51-transition.pkg" length="2993884" type="application/octet-stream" sparkle:edSignature="2Ky2iC9LvWnKxmrTFDJ113AjCoQTcC0RJSZWDM6wP5qKFx7xC4uoAVeMhs/5aelxvaSzKgluaM0cgwFykw7BBA==" sparkle:installationType="package" />
         </item>
     </channel>
 </rss>
