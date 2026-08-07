@@ -3,6 +3,20 @@
     <channel>
         <title>CueNow</title>
         <item>
+            <title>1.4.6</title>
+            <pubDate>Fri, 07 Aug 2026 11:33:00 +0530</pubDate>
+            <sparkle:version>73</sparkle:version>
+            <sparkle:shortVersionString>1.4.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# CueNow 1.4.6
+
+- Fixed `1.Text` on older macOS rendering with a mismatched number font or an unintended list-style gap.
+- Preserved normal numbered-list formatting for `1. Text`.
+]]></description>
+            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.6/CueNow-1.4.6.dmg" length="2980192" type="application/octet-stream" sparkle:edSignature="1kVvhxx4J/1RWcH9V2dEK3Ak+Hnkdd3cmU7rsWfCUTBb18EmtcpzZ2X7THPTjHiVoq+F+AAo9mfwGzmhv5GHBw=="/>
+        </item>
+        <item>
             <title>1.4.5</title>
             <pubDate>Fri, 31 Jul 2026 08:55:27 +0530</pubDate>
             <sparkle:version>72</sparkle:version>
@@ -31,20 +45,6 @@
 - Shared diagnostic logs now include the macOS version, appearance, transparency setting, and note style to make display-specific reports actionable.
 ]]></description>
             <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.4/CueNow-1.4.4.dmg" length="2977879" type="application/octet-stream" sparkle:edSignature="/G4F+aZWwH+Wv13ak3GK3Y1qlReLFN4yP6roNOPLsHT4JSR6OlKZarmzc0KWKPDrd1EywIsQXbNL8rPdvc/sAw=="/>
-        </item>
-        <item>
-            <title>1.4.3</title>
-            <pubDate>Sat, 18 Jul 2026 10:59:09 +0530</pubDate>
-            <sparkle:version>70</sparkle:version>
-            <sparkle:shortVersionString>1.4.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s fixed
-
-- Glass notes on macOS 15 and earlier now use the system’s appearance-adaptive blur, so Light Mode no longer receives a forced dark overlay.
-- Checkbox selections now treat the checkbox marker and its spacer as one control. Deleting a partial keyboard or mouse selection can no longer leave the checkbox misaligned.
-]]></description>
-            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.3/CueNow-1.4.3.dmg" length="2971337" type="application/octet-stream" sparkle:edSignature="n5PwaAQbI8LFyeOpV1+QZ0nWl134VP+Lv9SwHEeXruenSYGj2kUzAIMH05OPS/6NM1uCEiIeUtX8JJnYkdb9DA=="/>
         </item>
     </channel>
 </rss>
