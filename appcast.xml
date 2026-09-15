@@ -26,29 +26,6 @@ Requires macOS 13 or later.
             <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.5.0/CueNow-1.5.0.dmg" length="3030538" type="application/octet-stream" sparkle:edSignature="LYlauiLOqqaCeo9Sp0nfr7le8h7VN2Z2nKhDR8ed2BUoLcf4sqYOFcivn27v4piHcN6rnvfR8IRO03d33d0tBQ=="/>
         </item>
         <item>
-            <title>1.5.0</title>
-            <pubDate>Tue, 15 Sep 2026 20:56:56 +0530</pubDate>
-            <sparkle:version>74</sparkle:version>
-            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# CueNow 1.5.0
-
-macOS 27 compatibility release.
-
-- Fixed notes that could not be dragged on macOS 27. Dragging now goes through AppKit, so dragging a note to a screen edge tiles it again.
-- Note transparency now follows the system. Glass notes pick up the Liquid Glass transparency setting in System Settings → Appearance instead of staying at a fixed opacity.
-- Glass notes and the menu bar menu now turn opaque when Reduce Transparency is on.
-- Rebuilt the menu bar menu as a real menu surface: system glass, the correct corner radius, and the standard gap below the menu bar, replacing the popover arrow and chrome it used before.
-- Fixed a hard rectangular edge drawn around the menu bar menu's rounded corners.
-- Fixed the blur behind the menu bar menu keeping square corners on macOS 13–15.
-- Adopted the macOS 27 status item API so the menu keeps correct keyboard focus and menu bar tracking.
-
-Requires macOS 13 or later.
-]]></description>
-            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.5.0/CueNow-1.5.0.dmg" length="3030479" type="application/octet-stream" sparkle:edSignature="UhYe/yD3CeU1XHt8Bjc2a23GcXxvEcF5Uqzu3hWyYeMqnsVGCo6RAipQUEcyCP0oLckpBNlYDXlgRWpHZiISDA=="/>
-        </item>
-        <item>
             <title>1.4.6</title>
             <pubDate>Fri, 07 Aug 2026 11:33:00 +0530</pubDate>
             <sparkle:version>73</sparkle:version>
