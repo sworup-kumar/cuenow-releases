@@ -4,6 +4,29 @@
         <title>CueNow</title>
         <item>
             <title>1.5.0</title>
+            <pubDate>Tue, 15 Sep 2026 21:16:05 +0530</pubDate>
+            <sparkle:version>75</sparkle:version>
+            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# CueNow 1.5.0
+
+macOS 27 compatibility release.
+
+- Fixed notes that could not be dragged on macOS 27. Dragging now goes through AppKit, so dragging a note to a screen edge tiles it again.
+- Note transparency now follows the system. Glass notes pick up the Liquid Glass transparency setting in System Settings → Appearance instead of staying at a fixed opacity.
+- Glass notes and the menu bar menu now turn opaque when Reduce Transparency is on.
+- Rebuilt the menu bar menu as a real menu surface: system glass, the correct corner radius, and the standard gap below the menu bar, replacing the popover arrow and chrome it used before.
+- Fixed a hard rectangular edge drawn around the menu bar menu's rounded corners.
+- Fixed the blur behind the menu bar menu keeping square corners on macOS 13–15.
+- Adopted the macOS 27 status item API so the menu keeps correct keyboard focus and menu bar tracking.
+
+Requires macOS 13 or later.
+]]></description>
+            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.5.0/CueNow-1.5.0.dmg" length="3030538" type="application/octet-stream" sparkle:edSignature="LYlauiLOqqaCeo9Sp0nfr7le8h7VN2Z2nKhDR8ed2BUoLcf4sqYOFcivn27v4piHcN6rnvfR8IRO03d33d0tBQ=="/>
+        </item>
+        <item>
+            <title>1.5.0</title>
             <pubDate>Tue, 15 Sep 2026 20:56:56 +0530</pubDate>
             <sparkle:version>74</sparkle:version>
             <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
@@ -38,20 +61,6 @@ Requires macOS 13 or later.
 - Preserved normal numbered-list formatting for `1. Text`.
 ]]></description>
             <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.6/CueNow-1.4.6.dmg" length="2980192" type="application/octet-stream" sparkle:edSignature="1kVvhxx4J/1RWcH9V2dEK3Ak+Hnkdd3cmU7rsWfCUTBb18EmtcpzZ2X7THPTjHiVoq+F+AAo9mfwGzmhv5GHBw=="/>
-        </item>
-        <item>
-            <title>1.4.5</title>
-            <pubDate>Fri, 31 Jul 2026 08:55:27 +0530</pubDate>
-            <sparkle:version>72</sparkle:version>
-            <sparkle:shortVersionString>1.4.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# CueNow 1.4.5
-
-- Fixed numbered list markers displaying in a different font from their list text on older macOS versions.
-- Corrected inconsistent numbered-list line spacing caused by those mixed font metrics.
-]]></description>
-            <enclosure url="https://github.com/sworup-kumar/cuenow-releases/releases/download/v1.4.5/CueNow-1.4.5.dmg" length="2978376" type="application/octet-stream" sparkle:edSignature="dZ2iSw6mHQPV+Ea1xjokvCHgbJNchpFDXsoYCUSYqPLLSlC44tc0OxWKSXeJjZtxaQ2cn+GT1qWalYxltJzEBQ=="/>
         </item>
     </channel>
 </rss>
