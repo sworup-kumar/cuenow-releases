@@ -1,5 +1,7 @@
 # CueNow Releases
 
+MacOS 27 compatible!
+
 This repository is used for hosting public releases of CueNow as well as the changelog.
 
 CueNow is not open source (yet) and this repository does not contain any source code for CueNow.
