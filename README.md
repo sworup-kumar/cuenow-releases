@@ -9,7 +9,7 @@ CueNow is not open source (yet) and this repository does not contain any source 
 However, if you have any Feature requests or bug reports, please use the in-app support and feedback settings or use the [Issues](https://github.com/sworup-kumar/cuenow-releases/issues) tab to create a new issue.
 
 
-## Raycast and the `cuenow://` URL scheme
+## The `cuenow://` URL scheme
 
 From **1.5.1**, CueNow answers `cuenow://` links, so Shortcuts, Alfred, a shell script or anything else that can open a URL can drive it:
 
@@ -21,8 +21,6 @@ From **1.5.1**, CueNow answers `cuenow://` links, so Shortcuts, Alfred, a shell 
 | `cuenow://settings` | Opens the settings window |
 
 Links always reach the copy of CueNow already running rather than starting a second one, and will launch CueNow if it is not open.
-
-A [Raycast](https://raycast.com) extension built on this — search, create, show and hide notes without leaving Raycast — is currently under review by the Raycast team. This section will link to it once it is published.
 
 ## Community
 
